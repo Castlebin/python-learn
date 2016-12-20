@@ -1,5 +1,7 @@
 import threading
 import asyncio
+
+@asyncio.coroutine
 def hello():
     print("Hello world! (%s)" % threading.current_thread())
     yield from asyncio.sleep(1)

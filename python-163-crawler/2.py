@@ -1,5 +1,5 @@
-# encoding: utf-8
-# 使用requests和BeautifulSoup实现的简单爬虫结构，爬取新浪国内新闻
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import requests
 from bs4 import BeautifulSoup

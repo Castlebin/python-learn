@@ -1,5 +1,7 @@
-# encoding: utf-8
-# 使用requests和BeautifulSoup实现的简单爬虫结构，爬取新浪国内新闻
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+""" 使用requests和BeautifulSoup实现的简单爬虫结构，爬取新浪国内新闻"""
 
 import requests
 from bs4 import BeautifulSoup
@@ -19,4 +21,3 @@ for news in soup.select('.news-item'):# select拿出来的是一个数组
         a = news.select('a')[0]['href']
         time = news.select('.time')[0].text
         print(h2, a, time)
-

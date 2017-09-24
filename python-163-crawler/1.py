@@ -15,8 +15,8 @@ res.encoding = 'utf-8'
 soup = BeautifulSoup(res.text, 'html.parser')
 # print(soup.text)
 
-for news in soup.select('.news-item'):# select拿出来的是一个数组
-    if len(news.select('h2')) > 0:# select拿出来的是一个数组
+for news in soup.select('.news-item'):  # select拿出来的是一个数组
+    if len(news.select('h2')) > 0:  # select拿出来的是一个数组
         h2 = news.select('h2')[0].text
         a = news.select('a')[0]['href']
         time = news.select('.time')[0].text

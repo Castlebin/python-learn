@@ -21,7 +21,7 @@ print('%x %x' % (ord('中'), ord('文')))  # 4e2d 6587  算出'中文'这两个�
 print('\u4e2d\u6587')  # 中文
 
 # Python的字符串类型是str，在内存中以Unicode表示，但是如果要保存在文件或者在网络中传输，需要转化为字节，也就是byte类型
-# byte类型在pytho中以b作为前缀
+# byte类型在python中以b作为前缀
 print(b'ABC')  # b'ABC'为byte类型的值
 
 # 以Unicode表示的str通过encode()方法可以编码为指定的bytes

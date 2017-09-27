@@ -56,3 +56,5 @@ target/
 # idea
 .idea
 *.iml
+
+.ipynb_checkpoints

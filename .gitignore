@@ -58,3 +58,4 @@ target/
 *.iml
 
 .ipynb_checkpoints
+test_test.py

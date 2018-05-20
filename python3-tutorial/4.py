@@ -10,3 +10,6 @@ for n in range(2, 10):
     else:   # 注意，这里else是for的子句，而不是if的
         print(n, 'is a prime number.')
 
+
+# 关于函数参数的部分，参见廖雪峰的教程，4.7写得比较差
+

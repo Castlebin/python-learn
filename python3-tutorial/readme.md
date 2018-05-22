@@ -4,10 +4,10 @@
 
 这里是[中文版](http://www.pythondoc.com/pythontutorial3/)
 
-看完这个教程，python3基本上就算入门了
+*看完这个教程，python3基本上就算入门了*
 
 
-下面的作为入门阶段的简单补充资料
+下面的作为*入门*阶段的简单*补充资料*
 
 
 ## 2. [菜鸟教程的python3教程](http://www.runoob.com/python3/python3-tutorial.html)

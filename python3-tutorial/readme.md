@@ -14,7 +14,8 @@
 
 
 ## 2. [菜鸟教程的python3教程](http://www.runoob.com/python3/python3-tutorial.html)
+(看了 **1** 可以不看 )
 
 
 ## 3. [廖雪峰的python教程](https://www.liaoxuefeng.com/)
-
+廖雪峰的python教程不错

@@ -1,4 +1,4 @@
-# multiprocessing中的Pool为多进程任务提供了进程池
+# multiprocessing中的Pool为多进程任务提供了跨平台的进程池支持
 
 import os
 import random

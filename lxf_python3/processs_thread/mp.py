@@ -1,4 +1,4 @@
-# multiprocessing 模块为python提供了跨系统的多进程任务编写
+# multiprocessing 模块为python提供了跨平台的多进程支持
 
 import os
 from multiprocessing import Process

@@ -4,6 +4,7 @@ import asyncio
 import logging
 import aiomysql
 
+
 @asyncio.coroutine
 def create_pool(loop, **kw):
     logging.info('create database connection pool...')
@@ -20,6 +21,7 @@ def create_pool(loop, **kw):
         minsize=kw.get('minsize', 1),
         loop=loop
     )
+
 
 @asyncio.coroutine
 def select(sql, args, size=None):
@@ -51,6 +53,7 @@ def execute(sql, args):
         return affected
 
 from orm import Model, StringField, IntegerField
+
 
 class User(Model):
     __table__ = 'users'
